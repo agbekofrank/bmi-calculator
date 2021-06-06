@@ -1,9 +1,9 @@
-:root{
+:root {
     font-size: 18px;
-    font-family: 'Comic Neue', cursive;
+    font-family: "Comic Neue", cursive;
 }
-html, body{
-    
+html,
+body {
     background-color: #ffffff;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ html, body{
     display: flex;
     justify-content: center;
 }
-.container{
+.container {
     margin-top: 70px;
     /* border: 1px solid green; */
     border-radius: 10px;
@@ -20,8 +20,8 @@ html, body{
     background-color: #eaeaf3;
     color: #2d3045;
 
-    width: 1000px;
-    min-height: 400px;
+    width: 80vw;
+    min-height: 60vh;
 
     display: flex;
     flex-flow: column wrap;
@@ -29,59 +29,64 @@ html, body{
     align-items: center;
 }
 
-h2{
+h2 {
     color: #6f81fa;
     font-size: 2rem;
     font-weight: 700;
     font-style: bolder;
-
 }
 
-form{
+form {
     color: #6f81fa;
 }
-input{
-    border: 1px solid rgb(177, 177, 177) ;
+.shadow {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+input {
+    border: 1px solid rgb(177, 177, 177);
     height: 22px;
     width: 110px;
     border-radius: 6px;
     background-color: rgb(224, 224, 224);
-    font-size: .800rem;
+    font-size: 0.8rem;
     opacity: 0.6;
     margin: 10px;
     text-align: center;
 
     color: #0d7c57;
 }
-input::placeholder{
+input::placeholder {
     /* background-color: #eaeaf3; */
     color: #022c1e;
-    font-size: .800rem;
+    font-size: 0.8rem;
 }
-::placeholder:hover{
+::placeholder:hover {
     color: #2d3045;
 }
-input:hover{
+input:hover {
     background-color: #c8c8c8;
     color: rgb(3, 27, 19);
     /* font-size: ; */
 }
 
-button{
+button {
     background-color: #dddddd;
     border: none;
     height: 26px;
     border-radius: 5px;
     color: #464e9b;
     transition: all 0.3s;
-    font-size: .9rem;
+    font-size: 0.9rem;
     font-weight: 700;
 }
-button:hover{
+button:hover {
     transform: scale(1.1);
 }
 
-#res{
+#res {
     /* color: #2d3045; */
     font-style: bolder;
 }
