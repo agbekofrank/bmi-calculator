@@ -79,6 +79,7 @@ button {
     border-radius: 5px;
     color: #464e9b;
     transition: all 0.3s;
+    margin: 10px;
     font-size: 0.9rem;
     font-weight: 700;
 }
