@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>BMI</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Body Mass Index Calculator</h2>
+        <div class="form-container">
+            <form action="" method="post">
+                <input type="text" name="weight" placeholder="weight" id="weight">
+                <input type="text" name="height" placeholder="height" id="height">
+                <button type="button" id="submit" onclick="handleSubmit()">Check BMI</button>
+            </form>
+        </div>
+        <div class="result">
+            <p id="res">{{Result}}</p>
+        </div>
+
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
