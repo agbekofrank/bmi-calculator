@@ -3,14 +3,15 @@ let resultHtml = document.getElementById('res');
 let result;
 
 function bmiCalc(weight, height) {
-    if (!isNaN(weight) || !isNaN(height)) {
-        let bmi = Math.round(weight / Math.pow(height, 2));
-        let w = bmi < 18.5 ? 'underweight' : (bmi > 18.5 && bmi < 24.9) ? 'normal weight' : 'overweight';
-        let msg = `Your BMI is ${bmi} so you are ${w}`;
+    let bmi = Math.round(weight / Math.pow(height, 2));
+    if (isNaN(bmi)) {
+        msg = 'Enter numbers only';
         return msg;
     } else {
-        console.log('NOT A NUMBER');
-        return 'NOT A NUMBER';
+        let w = bmi < 18.5 ? 'underweight' : (bmi > 18.5 && bmi < 24.9) ?
+            'normal weight' : (bmi > 24.9) ? 'overweight' : 'in an unkwown weight';
+        let msg = `Your BMI is ${bmi} so you are ${w}`;
+        return msg;
     }
 }
 

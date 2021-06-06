@@ -3,7 +3,8 @@
     font-family: 'Comic Neue', cursive;
 }
 html, body{
-    background-image: url(../../assets/img/bg2.jpg);
+    /* background-image: url(../../assets/img/bg2.jpg); */
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +15,7 @@ html, body{
     margin-top: 70px;
     /* border: 1px solid green; */
     border-radius: 10px;
-    background-color: rgba(146, 141, 141, 0.8);
+    background-color: rgba(189, 189, 189, 0.8);
     width: 1000px;
     min-height: 400px;
 
@@ -37,11 +38,11 @@ form{
 input{
     border: 1px solid rgb(177, 177, 177) ;
     border-radius: 6px;
-    background-color: rgb(197, 197, 197);
-    color: rgb(8, 0, 0);
+    background-color: rgb(224, 224, 224);
+    color: rgb(1, 20, 4);
 }
 button{
-    background-color: #968d89;
+    background-color: #c2c0bf;
     color: rgb(3, 3, 2);
     transition: all 0.3s;
 }
@@ -50,5 +51,6 @@ button:hover{
 }
 
 #res{
-    color: #270c04;
+    color: #032e02;
+    font-style: bolder;
 }
