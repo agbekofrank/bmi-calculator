@@ -3,7 +3,7 @@
     font-family: 'Comic Neue', cursive;
 }
 html, body{
-    /* background-image: url(../../assets/img/bg2.jpg); */
+    
     background-color: #ffffff;
     margin: 0;
     padding: 0;
@@ -15,7 +15,11 @@ html, body{
     margin-top: 70px;
     /* border: 1px solid green; */
     border-radius: 10px;
-    background-color: rgba(189, 189, 189, 0.8);
+    /* box-shadow: 2px 1px #35523e66;
+    -webkit-box-shadow:6px 9px #35523e66; */
+    background-color: #eaeaf3;
+    color: #2d3045;
+
     width: 1000px;
     min-height: 400px;
 
@@ -26,31 +30,58 @@ html, body{
 }
 
 h2{
-    color: #180102;
+    color: #6f81fa;
     font-size: 2rem;
     font-weight: 700;
     font-style: bolder;
 
 }
+
 form{
-    color: rgb(230, 221, 221);
+    color: #6f81fa;
 }
 input{
     border: 1px solid rgb(177, 177, 177) ;
+    height: 22px;
+    width: 110px;
     border-radius: 6px;
     background-color: rgb(224, 224, 224);
-    color: rgb(1, 20, 4);
+    font-size: .800rem;
+    opacity: 0.6;
+    margin: 10px;
+    text-align: center;
+
+    color: #0d7c57;
 }
+input::placeholder{
+    /* background-color: #eaeaf3; */
+    color: #022c1e;
+    font-size: .800rem;
+}
+::placeholder:hover{
+    color: #2d3045;
+}
+input:hover{
+    background-color: #c8c8c8;
+    color: rgb(3, 27, 19);
+    /* font-size: ; */
+}
+
 button{
-    background-color: #c2c0bf;
-    color: rgb(3, 3, 2);
+    background-color: #dddddd;
+    border: none;
+    height: 26px;
+    border-radius: 5px;
+    color: #464e9b;
     transition: all 0.3s;
+    font-size: .9rem;
+    font-weight: 700;
 }
 button:hover{
     transform: scale(1.1);
 }
 
 #res{
-    color: #032e02;
+    /* color: #2d3045; */
     font-style: bolder;
 }
